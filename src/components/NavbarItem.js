@@ -1,11 +1,13 @@
 import '../styles/Dropdown.css'
+import '../styles/Navbar.css'
 import BeddingDropdown from './BeddingDropdown'
+import{FaChevronDown} from 'react-icons/fa';;
 
 export default function NavbarItem({ navItem, linkId }){
   if(linkId === 'link1'){
     return(
       <div id={linkId}>
-        <p className="main-drop-item">{navItem}</p>
+        <a href="/" className="main-drop-item navbar-text">{navItem.toUpperCase()} <FaChevronDown className="dropdownIcon"/></a>
         <div className="dropdown-link-div">
           <BeddingDropdown />
         </div>
@@ -14,7 +16,7 @@ export default function NavbarItem({ navItem, linkId }){
   }
   return(
     <div id={linkId}>
-      <p>{navItem}</p>
+      <a href="/" className='navbar-text'>{navItem.toUpperCase()}</a>
     </div>
   )
 }
