@@ -12,7 +12,7 @@ class ShoppingItem extends Component {
               <div className="article-text-container">
                 <p>{article.title}</p>
                 <p>{article.price}</p>
-                <p className="font-light">{article.details[0]}</p>
+                <p className="font-light">{article.details[0].toLowerCase()}</p>
                 <p className="font-light">{article.details[1]}</p>
               </div>
             </div>

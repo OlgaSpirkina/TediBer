@@ -1,0 +1,17 @@
+h2 {
+   width: 80%;
+   text-align: center;
+   border-bottom: 1px solid #212348;
+   line-height: 0.1em;
+   margin: 0 auto;
+   margin-top: 4rem;
+   letter-spacing: 3px;
+   font-weight: 400;
+}
+
+h2 span {
+    background-color:#fff;
+    margin: 0 5rem;
+    padding:0 10rem;
+    color: #212348;
+}
