@@ -9,7 +9,7 @@ export default function BeddingDropdown(){
   return(
     dropdownList.map(bedding => {
       return(
-        <a className="dropdown-link" href="/">{bedding}</a>
+        <a key={bedding} className="dropdown-link" href="/">{bedding}</a>
       )
     })
   )

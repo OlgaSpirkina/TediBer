@@ -1,0 +1,26 @@
+[
+  {
+    "title": "L’INCROYABLE MATELAS TEDIBER",
+    "image": "../../public/bed.jpg",
+    "price": "750 €",
+    "details": [
+      "TAILLE : 160 x 200 cm", "QTÉ : 1"
+    ]
+  },
+  {
+    "title": "L’INCROYABLE OREILLER TEDIBER",
+    "image": "../../public/pillow.jpg",
+    "price": "85 €",
+    "details": [
+      "TAILLE : 60 x 60 cm", "QTÉ : 2"
+    ]
+  },
+  {
+    "title": "L’INCROYABLE COUETTE TEDIBER",
+    "image": "../../public/blanket.jpg",
+    "price": "210 €",
+    "details": [
+      "TAILLE : 240 x 220 cm", "QTÉ : 1"
+    ]
+  }
+]
