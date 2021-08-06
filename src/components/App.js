@@ -14,7 +14,6 @@ const navItems = [
   'contactez-nous',
   'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/shoppingcart.png'
 ]
-console.log(navItems);
 function App() {
   return (
     <>
