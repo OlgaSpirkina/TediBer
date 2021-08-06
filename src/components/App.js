@@ -3,23 +3,22 @@ import '../styles/Navbar.css'
 import Navbar from './Navbar'
 
 const navItems = [
-  '/../../public/logo-text.png',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-text.png',
   'nos produits',
   'le concept',
   'avis',
-  '../../public/logo-tediber.png',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-tediber.png',
   'pub tv',
   'mon compte',
   'mag',
   'contactez-nous',
-  // '../../public/shoppingcart.png'
-  'https://raw.githubusercontent.com/OlgaSpirkina/Nextjs_Cryptocurrencies/main/public/logoshayp.png'
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/shoppingcart.png'
 ]
 console.log(navItems);
 function App() {
   return (
     <>
-      <div className="container_div">
+      <div>
         <Navbar navItems={navItems}/>
       </div>
     </>

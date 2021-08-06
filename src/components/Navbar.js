@@ -1,8 +1,8 @@
-// import styles from '../styles/Navbar.css'
+import '../styles/Navbar.css'
 import NavbarList from './NavbarList'
 export default function Navbar({ navItems }){
   return(
-    <div>
+    <div className="container_div">
       <NavbarList navItems={navItems} />
     </div>
   )

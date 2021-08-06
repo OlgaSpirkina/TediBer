@@ -1,5 +1,10 @@
-export default function Image({ navItem }){
+import React from 'react'
+import '../styles/Image.css'
+
+export default function Image({ navItem, imgId }){
   return (
-    <img src={navItem} alt="tediber logo"/>
+    <>
+      <img className="nav_img" id={imgId} src={navItem} alt="tediber logo"/>
+    </>
   )
 }
