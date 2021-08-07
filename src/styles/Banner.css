@@ -1,3 +1,9 @@
+.banner-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 h2 {
    width: 80%;
    text-align: center;
@@ -10,8 +16,12 @@ h2 {
 }
 
 h2 span {
-    background-color:#fff;
-    margin: 0 5rem;
-    padding:0 10rem;
-    color: #212348;
+  background-color:#fff;
+  color: #212348;
+  margin: 0 5rem;
+  padding:0 5rem;
+}
+.zigzag-line{
+  width: 7vw;
+  margin-top: 2rem;
 }

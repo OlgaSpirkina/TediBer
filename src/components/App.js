@@ -1,6 +1,7 @@
-import Navbar from './Navbar'
-import Shopping from './Shopping'
+import Navbar from './Navbar/Navbar'
+import Shopping from './Shopping/Shopping'
 import Banner from './Banner'
+import Dropdown from './Dropdown'
 import '../styles/App.css';
 import '../styles/Navbar.css'
 
@@ -32,6 +33,7 @@ function App() {
       </div>
       <Banner prop={bannerText[0]}/>
       <div className="all-info-shoppingcart">
+        <Dropdown />
         <Shopping />
       </div>
       <Banner prop={bannerText[1]}/>
