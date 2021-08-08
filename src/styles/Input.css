@@ -1,0 +1,29 @@
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.switch input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.styled_checkbox{
+  margin: 0 auto;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid grey;
+}
+.outline_check_icon{
+  z-index: 1;
+  width: 1.5rem;
+  font-size: 1.5rem;
+  color: #006e42;
+  border: 1px solid #006e42;
+  border-radius: 50%;
+}

@@ -7,10 +7,10 @@ export default function ImgCheckbox({ dropdownItemsImg }){
     <>
     {dropdownItemsImg.map((img, index) =>{
       return(
-        <div key={index} className="dropdown_section_parent">
+        <span key={index} className="dropdown_section_parent">
           <div className="dropdown_img_parent"><img src={img} alt="icon de livraison" /></div>
           <Input index={index}/>
-        </div>
+        </span>
       )
     })
     }

@@ -1,3 +1,5 @@
+/* BeddingDropdown.js: les liens dans la navbar */
+/* #link1 se situe dans NavbarItem.js */
 #link1{
   position: relative;
   display: inline-block;
@@ -26,18 +28,14 @@
 #link1:hover .dropdown-link-div{
   display: block;
 }
+/* Fin liens de la Navbar */
+/* toutes les icons du react */
 .dropdownIcon{
   position: relative;
   top: .3rem;
   color: #E0DEDA;
 }
-.all-info-shoppingcart{
-  width: 90vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-
-}
+/* DropdownSection.js: la section avec les info sur la commande et les paragraphs-dropdown */
 .delivery_section{
   width: 30vw;
   height: 20vh;
@@ -45,39 +43,32 @@
   flex-direction: column;
   justify-content: space-between;
 }
+/* ImgCheckbox.js: les images et les checkbox pour voir l'état du livraison */
+.dropdown_section_parent{
+  display: flex;
+  flex-direction: column;
+}
 .imgs_checkboxes_section{
   display: flex;
   justify-content: space-evenly;
   margin: 1rem 0;
 }
-.purchase_parent{
-  margin-bottom: 0;
-}
-.dropdown_section_parent{
-  display: flex;
-  flex-direction: column;
-}
 .dropdown_img_parent{
   height: 5rem;
 }
-.dropdown_main_container{
-  display: flex;
-  justify-content: space-evenly;
-  margin: 1rem 0;
-  margin-top: 2rem;
-}
+/* fin page ImgCheckbox.js */
+/* DropdownParagraph.js: le paragraph contenant une phrase et une icon qui affiche de l'info */
 .paragraph_dropdown{
   width: inherit;
   margin: 0;
   padding: 2rem 0;
   border-bottom: 1px solid;
 }
+/* l'iconde du chevron dans ChevronChange.js */
 .icon_in_paragraph{
   position: relative;
   float: right;
 }
-.dropdown_paragraph{
-  top: 0;
-  position: relative;
-  /* margin-top: 0; */
+.turn_around{
+  transform: rotate(180deg);
 }

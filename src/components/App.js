@@ -4,7 +4,6 @@ import Banner from './Banner'
 import DropdownSection from './Dropdown/DropdownSection'
 import '../styles/App.css';
 import '../styles/Navbar.css'
-import '../styles/Dropdown.css'
 
 const dropdownItemsImg = [
   'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/box.svg',
