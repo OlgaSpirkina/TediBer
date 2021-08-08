@@ -61,3 +61,44 @@ body{
 .visa-cb img{
   width: 5rem;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) {
+  .all-info-shoppingcart{
+    flex-direction: column;
+    height: inherit;
+  }
+  .help_dropdown,
+  .total-section{
+    width: 90%;
+  }
+  .visa-cb{
+    width: 90%;
+    height: 4rem;
+  }
+  .price-container-centered{
+    width: 90%;
+  }
+}
+@media only screen and (min-device-width : 801px) and (max-device-width : 1000px) {
+  .all-info-shoppingcart{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    height: inherit;
+  }
+  .help_dropdown,
+  .total-section{
+    width: 80%;
+  }
+  .price-container-centered{
+    width: 70%;
+  }
+}
+@media only screen and (min-device-width : 1001px) and (max-device-width : 1600px) {
+  .all-info-shoppingcart{
+    width: 90%;
+    height: inherit;
+  }
+  .price-container-centered{
+    width: 60%;
+  }
+}

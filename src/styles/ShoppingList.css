@@ -43,3 +43,63 @@
 .font-light{
   font-weight: lighter;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 550px) {
+  .shopping-section{
+    width: 100%;
+    height: inherit;
+  }
+  .shopping-section-wraper{
+    /* height: 100vh; */
+    margin: 2rem 0;
+    margin-top: 10rem;
+  }
+  .article-container{
+    width: 90%;
+  }
+  .article-text-container p:first-child{
+    font-size: 1rem;
+  }
+  .article-text-container p:nth-child(2){
+    font-size: .9rem;
+  }
+}
+@media only screen and (min-device-width : 501px) and (max-device-width : 800px) {
+  .shopping-section{
+    width: 100%;
+    height: inherit;
+  }
+  .shopping-section-wraper{
+    /* height: 100vh; */
+    margin: 2rem 0;
+    margin-top: 10rem;
+  }
+  .article-container{
+    width: 90%;
+  }
+  .article-text-container p:first-child{
+    font-size: 1rem;
+  }
+  .article-text-container p:nth-child(2){
+    font-size: .9rem;
+  }
+}
+@media only screen and (min-device-width : 801px) and (max-device-width : 1000px) {
+  .shopping-section{
+    width: 90%;
+  }
+  .article-text-container p:first-child{
+    font-size: 1.2rem;
+  }
+  .article-text-container p:nth-child(2){
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-device-width : 1001px) and (max-device-width : 1400px) {
+  .shopping-section{
+    width: 85%;
+  }
+  .article-text-container p:first-child{
+    font-size: 1.3rem;
+  }
+}

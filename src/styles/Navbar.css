@@ -14,3 +14,24 @@
   letter-spacing: 1.5px;
   color: #202446;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+  .container_div{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 80vh;
+  }
+}
+@media only screen and (min-device-width : 501px) and (max-device-width : 980px){
+
+}
+@media only screen and (min-device-width : 681px){
+  .logo_container span{
+    font-size: inherit;
+  }
+}
+@media only screen and (min-device-width : 1001px) and (max-device-width : 1400px) {
+  .navbar-text{
+    font-size: 1rem;
+  }
+}

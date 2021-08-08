@@ -22,3 +22,43 @@
 .element_delivery h3{
   margin-top: 0;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 590px) {
+  .delivery_info_section{
+    width: 90%;
+    flex-direction: column;
+    height: inherit;
+  }
+  .element_delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+  }
+  .element_delivery div{
+    margin-bottom: 1rem;
+  }
+  .element_delivery:last-child{
+    border-bottom: none;
+  }
+}
+@media only screen and (min-device-width : 591px) and (max-device-width : 699px) {
+  .delivery_info_section{
+    width: 95%;
+    height: 25vh;
+  }
+  .element_delivery{
+    padding: .5rem;
+    height: 20vh;
+  }
+  .element_delivery div{
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-device-width : 700px) and (max-device-width : 1260px) {
+  .delivery_info_section{
+    width: 90%;
+    height: 25vh;
+  }
+}
