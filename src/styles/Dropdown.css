@@ -59,9 +59,9 @@
 /* fin page ImgCheckbox.js */
 /* DropdownParagraph.js: le paragraph contenant une phrase et une icon qui affiche de l'info */
 .paragraph_dropdown{
+  margin: 1rem 0;
+  padding: 1rem 0;
   width: inherit;
-  margin: 0;
-  padding: 2rem 0;
   border-bottom: 1px solid;
 }
 /* l'iconde du chevron dans ChevronChange.js */
@@ -74,6 +74,6 @@
 }
 /* DropdownParagraphList.js: le contenu fictif du deuxième paragraph-dropdown */
 .span{
-  margin: 0 20rem;
+  display: block;
   text-transform: uppercase;
 }

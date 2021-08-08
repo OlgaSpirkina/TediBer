@@ -3,6 +3,7 @@ import Shopping from './Shopping/Shopping'
 import Banner from './Banner'
 import DropdownSection from './Dropdown/DropdownSection'
 import DeliveryItemList from './Delivery/DeliveryItemList'
+import HelpSection from './HelpSection'
 import '../styles/App.css';
 import '../styles/Navbar.css'
 
@@ -61,7 +62,9 @@ function App() {
       <Banner prop={bannerText[2]}/>
       <Banner prop={bannerText[3]}/>
       <Banner prop={bannerText[4]}/>
-
+      <div className="banner-container">
+        <HelpSection />
+      </div>
     </>
   )
 }

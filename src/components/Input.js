@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {AiOutlineCheck} from 'react-icons/ai';
 import '../styles/Input.css'
 
-export default function Input ({ index }){
+export default function Input (){
   const [outlineCheck, setOutlineCheck] = useState(false);
   return(
     <label className="switch">

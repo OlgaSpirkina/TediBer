@@ -9,9 +9,9 @@ export default function DeliveryItem(){
         <div key={index} className="element_delivery">
           <h3>{information.name.toUpperCase()}</h3>
           <div>
-            {information.info.map(elem => {
+            {information.info.map((elem, index) => {
               return(
-                <p>{elem}</p>
+                <p key={index}>{elem}</p>
               )
             })}
           </div>
