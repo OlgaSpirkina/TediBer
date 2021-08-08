@@ -4,6 +4,8 @@ import Banner from './Banner'
 import DropdownSection from './Dropdown/DropdownSection'
 import DeliveryItemList from './Delivery/DeliveryItemList'
 import HelpSection from './HelpSection'
+import TotalPrice from './TotalPrice'
+import VisaCb from './VisaCb'
 import '../styles/App.css';
 import '../styles/Navbar.css'
 
@@ -15,7 +17,8 @@ const dropdownItemsImg = [
 ]
 const track = 'Suivi commande';
 const refund = 'Informations sur les retours';
-
+const visaName = "Visa";
+const visaImg = "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-cb.jpg";
 const navItems = [
   'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-text.png',
   'nos produits',
@@ -60,7 +63,15 @@ function App() {
       <Banner prop={bannerText[1]}/>
       <DeliveryItemList />
       <Banner prop={bannerText[2]}/>
+      <div className="banner-container article-container total-section visa-cb">
+        <VisaCb visaName={visaName} visaImg={visaImg}/>
+      </div>
       <Banner prop={bannerText[3]}/>
+      <div className="banner-container article-container total-section">
+        <div className="price-container-centered">
+          <TotalPrice />
+        </div>
+      </div>
       <Banner prop={bannerText[4]}/>
       <div className="banner-container">
         <HelpSection />

@@ -35,5 +35,29 @@ body{
 .help_dropdown div p{
  width: inherit;
 }
-
-/* Fin HelpSection.js */
+/* Début TotalPrice.js */
+.total-section{
+  width: 70%;
+  margin: 2rem auto;
+}
+.price-container-centered{
+  width: 8vw;
+  margin: 0 auto;
+}
+.price-container-centered p{
+  display: flex;
+  justify-content: space-between;
+}
+.total{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+/* Debut VisaCb.js */
+.visa-cb{
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 5vh;
+}
+.visa-cb img{
+  width: 5rem;
+}
