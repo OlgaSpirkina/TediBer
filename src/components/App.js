@@ -2,6 +2,7 @@ import Navbar from './Navbar/Navbar'
 import Shopping from './Shopping/Shopping'
 import Banner from './Banner'
 import DropdownSection from './Dropdown/DropdownSection'
+import DeliveryItemList from './Delivery/DeliveryItemList'
 import '../styles/App.css';
 import '../styles/Navbar.css'
 
@@ -56,6 +57,7 @@ function App() {
         <Shopping />
       </div>
       <Banner prop={bannerText[1]}/>
+      <DeliveryItemList />
       <Banner prop={bannerText[2]}/>
       <Banner prop={bannerText[3]}/>
       <Banner prop={bannerText[4]}/>

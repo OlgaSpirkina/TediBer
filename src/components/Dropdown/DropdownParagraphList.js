@@ -11,7 +11,7 @@ export default function DropdownParagraphList({ track, refund, dropdownItemsImg 
           <ImgCheckbox dropdownItemsImg={dropdownItemsImg}/>
         </div>
       } />
-      <DropdownParagraph text={refund} onclick={<span>"hello world"</span>} />
+      <DropdownParagraph text={refund} onclick={<span className="span">hello world</span>} />
     </>
   )
 }

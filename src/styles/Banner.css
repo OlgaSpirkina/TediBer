@@ -10,9 +10,11 @@ h2 {
    border-bottom: 1px solid #212348;
    line-height: 0.1em;
    margin: 0 auto;
-   margin-top: 4rem;
    letter-spacing: 3px;
    font-weight: 400;
+}
+h2:first-child{
+  margin-top: 4rem;
 }
 
 h2 span {

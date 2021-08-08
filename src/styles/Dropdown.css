@@ -72,3 +72,8 @@
 .turn_around{
   transform: rotate(180deg);
 }
+/* DropdownParagraphList.js: le contenu fictif du deuxième paragraph-dropdown */
+.span{
+  margin: 0 20rem;
+  text-transform: uppercase;
+}

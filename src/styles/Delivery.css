@@ -1,0 +1,24 @@
+.delivery_info_section{
+  width: 70vw;
+  height: 20vh;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.element_delivery{
+  width: inherit;
+  height: 15vh;
+  border-right: 1px solid grey;
+  padding: 1rem;
+}
+.element_delivery:last-child{
+  border-right: none;
+}
+.element_delivery p{
+  margin: 0;
+  padding: 0;
+}
+.element_delivery h3{
+  margin-top: 0;
+}
