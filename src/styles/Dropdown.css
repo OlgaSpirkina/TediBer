@@ -31,3 +31,53 @@
   top: .3rem;
   color: #E0DEDA;
 }
+.all-info-shoppingcart{
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+.delivery_section{
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imgs_checkboxes_section{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+.purchase_parent{
+  margin-bottom: 0;
+}
+.dropdown_section_parent{
+  display: flex;
+  flex-direction: column;
+}
+.dropdown_img_parent{
+  height: 5rem;
+}
+.dropdown_main_container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+  margin-top: 2rem;
+}
+.paragraph_dropdown{
+  width: inherit;
+  margin: 0;
+  padding: 2rem 0;
+  border-bottom: 1px solid;
+}
+.icon_in_paragraph{
+  position: relative;
+  float: right;
+}
+.dropdown_paragraph{
+  top: 0;
+  position: relative;
+  /* margin-top: 0; */
+}

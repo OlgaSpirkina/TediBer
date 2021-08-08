@@ -1,9 +1,19 @@
 import Navbar from './Navbar/Navbar'
 import Shopping from './Shopping/Shopping'
 import Banner from './Banner'
-import Dropdown from './Dropdown'
+import DropdownSection from './Dropdown/DropdownSection'
 import '../styles/App.css';
 import '../styles/Navbar.css'
+import '../styles/Dropdown.css'
+
+const dropdownItemsImg = [
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/box.svg',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/packing.svg',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/delivery.svg',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/door.svg'
+]
+const track = 'Suivi commande';
+const refund = 'Informations sur les retours';
 
 const navItems = [
   'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-text.png',
@@ -24,6 +34,16 @@ const arrayOfText = [
   'totoal commande',
   'besoin d\'aide ?'
 ];
+const deliveryInfo = [
+  'N° de commande : ',
+  'Date de commande : ',
+  'Date d’expédition : '
+]
+const deliverySpan = [
+  '405560003',
+  '1 mai 2019',
+  '3 mai 2019'
+]
 const bannerText = arrayOfText.map(elem => elem.toUpperCase());
 function App() {
   return (
@@ -33,7 +53,7 @@ function App() {
       </div>
       <Banner prop={bannerText[0]}/>
       <div className="all-info-shoppingcart">
-        <Dropdown />
+        <DropdownSection track={track} refund={refund} dropdownItemsImg={dropdownItemsImg} deliveryInfo={deliveryInfo} deliverySpan={deliverySpan}/>
         <Shopping />
       </div>
       <Banner prop={bannerText[1]}/>
