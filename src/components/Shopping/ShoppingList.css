@@ -76,6 +76,7 @@
   }
   .article-container{
     width: 90%;
+    margin: 0 auto;
   }
   .article-text-container p:first-child{
     font-size: 1rem;
@@ -96,6 +97,9 @@
   }
 }
 @media only screen and (min-device-width : 1001px) and (max-device-width : 1400px) {
+  .article-container{
+    margin: 0 auto;
+  }
   .shopping-section{
     width: 85%;
   }

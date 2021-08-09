@@ -19,14 +19,14 @@ export default function NavbarList({ navItems, navItem, imgId, linkId }){
 
   return(
     <div className="list">
-    {/* le poins de changemet 800px le menu burger est déclanché quand la taille
-      est inférieure à 800px */}
-    {mobileScreenWidth > 800 && (
+    {/* le poins de changemet 900px le menu burger est déclanché quand la taille
+      est inférieure à 900px */}
+    {mobileScreenWidth > 900 && (
       navItems.map((item, index) => {
         return(
           <>
     {/* le rendu des element de la nav soit en tant que composant Image soit NavbarItem */}
-          {item.includes('img') ? <Image key={index} navItem={item} imgId={'img'+index} />
+          {item.includes('https') ? <Image key={index} navItem={item} imgId={'img'+index} />
           : <NavbarItem key={index} navItem={item} linkId={'link'+index} /> }
           </>
         )
@@ -34,7 +34,7 @@ export default function NavbarList({ navItems, navItem, imgId, linkId }){
     )}
     {/* Version mobile: la navbar ne contien plus d'image dans le menu, elle contien NavbarItem lien
     les img sont affichées par-dessus quand la nav est repliée. J'affiche si ce n'est pas une img  */}
-    {mobileScreenWidth < 800 && (
+    {mobileScreenWidth <= 900 && (
       navItems.map((item, index) => {
       if(!item.includes('https')){
         return ( <NavbarItem key={index} navItem={item} linkId={'link'+index} />)

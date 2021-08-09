@@ -31,17 +31,17 @@ export default function Navbar({ navItems }){
   },[])
   return(
     <nav className="container_nav">
-      {(burgerMenu || screenWidth > 800) && (
+      {(burgerMenu || screenWidth > 900) && (
         <NavbarList navItems={navItems} />
       )}
-  {/* la taill d'écran inférieur à 800 px toggle déclanche l'affichage des logo par-dessus de la nav pliée
+  {/* la taill d'écran inférieur à 900 px toggle déclanche l'affichage des logo par-dessus de la nav pliée
   quand la nav est dépliée (className ="mobile_logos") les logo sont cachés grâce au rajout de la classe "hide"  */}
-      {(burgerMenu || screenWidth < 800) && (
+      {(burgerMenu || screenWidth <= 900) && (
         <div className={hideImgs ? "mobile_logos" : "hide"}>
           <div className="text-logo">
-            <img src='../../img/logo-text.png' alt="logo Tediber" />
+            <img src='https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/logo-text.png' alt="logo Tediber" />
           </div>
-          <img src='../../img/shoppingcart.png' alt="logo Tediber" className="shopping-logo"/>
+          <img src='https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/shoppingcart.png' alt="logo Tediber" className="shopping-logo"/>
         </div>
       )}
         <GiHamburgerMenu onClick={toggleBurger} className="burger" />

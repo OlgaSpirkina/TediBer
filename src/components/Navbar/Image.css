@@ -14,7 +14,7 @@
 #img9{
   width: 7rem;
 }
-@media only screen and (min-device-width : 1001px) and (max-device-width : 1400px) {
+@media only screen and (min-device-width : 901px) and (max-device-width : 1400px) {
   #img0{
     width: 6rem;
   }

@@ -10,27 +10,27 @@ import '../styles/App.css';
 import './Navbar/Navbar.css'
 
 const dropdownItemsImg = [
-  '../img/box.svg',
-  '../img/packing.svg',
-  '../img/delivery.svg',
-  '../img/door.svg'
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/4cfbc34806be7865789f59f971d915dbef468429/src/img/box.svg',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/4cfbc34806be7865789f59f971d915dbef468429/src/img/packing.svg',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/4cfbc34806be7865789f59f971d915dbef468429/src/img/delivery.svg',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/4cfbc34806be7865789f59f971d915dbef468429/src/img/door.svg'
 ]
 const track = 'Suivi commande';
 const refund = 'Informations sur les retours';
 const visaName = "Visa";
-const visaImg = "../img/logo-cb.jpg";
+const visaImg = "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/logo-cb.jpg";
 /* les textes et imgs de la navbar */
 const navItems = [
-  '/img/logo-text.png',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/logo-text.png',
   'nos produits',
   'le concept',
   'avis',
-  '../img/logo-tediber.png',
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/logo-tediber.png',
   'pub tv',
   'mon compte',
   'mag',
   'contactez-nous',
-  '../img/shoppingcart.png'
+  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/shoppingcart.png'
 ]
 /* les phrases des sections-bannière */
 const arrayOfText = [
