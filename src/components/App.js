@@ -7,30 +7,32 @@ import HelpSection from './HelpSection'
 import TotalPrice from './TotalPrice'
 import VisaCb from './VisaCb'
 import '../styles/App.css';
-import '../styles/Navbar.css'
+import './Navbar/Navbar.css'
 
 const dropdownItemsImg = [
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/box.svg',
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/packing.svg',
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/delivery.svg',
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/a277b71fd7f5cc8802a8cbf1a95498bbe79da884/public/door.svg'
+  '../img/box.svg',
+  '../img/packing.svg',
+  '../img/delivery.svg',
+  '../img/door.svg'
 ]
 const track = 'Suivi commande';
 const refund = 'Informations sur les retours';
 const visaName = "Visa";
-const visaImg = "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-cb.jpg";
+const visaImg = "../img/logo-cb.jpg";
+/* les textes et imgs de la navbar */
 const navItems = [
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-text.png',
+  '/img/logo-text.png',
   'nos produits',
   'le concept',
   'avis',
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/logo-tediber.png',
+  '../img/logo-tediber.png',
   'pub tv',
   'mon compte',
   'mag',
   'contactez-nous',
-  'https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/shoppingcart.png'
+  '../img/shoppingcart.png'
 ]
+/* les phrases des sections-bannière */
 const arrayOfText = [
   'suivi de commande',
   'informations sur la livraison',
@@ -38,6 +40,7 @@ const arrayOfText = [
   'totoal commande',
   'besoin d\'aide ?'
 ];
+/* composant Purchase */
 const deliveryInfo = [
   'N° de commande : ',
   'Date de commande : ',
@@ -48,6 +51,8 @@ const deliverySpan = [
   '1 mai 2019',
   '3 mai 2019'
 ]
+/* les phrases des bannières affichées en majuscule sont contenues dans la variable bannerText et sont passée
+aux composants Banner comme prop individuel */
 const bannerText = arrayOfText.map(elem => elem.toUpperCase());
 function App() {
   return (
@@ -79,5 +84,4 @@ function App() {
     </>
   )
 }
-
 export default App;

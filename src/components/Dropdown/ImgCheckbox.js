@@ -1,7 +1,7 @@
 import React from 'react'
-import Input from '../Input'
-import '../../styles/Dropdown.css'
-
+import Input from './Input'
+import './Dropdown.css'
+/* les imgs et les checkbox qui s'affiche quand on click sur Suivi de commande */
 export default function ImgCheckbox({ dropdownItemsImg }){
   return(
     <>

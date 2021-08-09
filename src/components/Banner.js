@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Banner.css'
-
+/* les sections-bannières affichant une phrase comme: suivi de commande, informations sur la livraison, informations sur le paement, etc. */
 export default function Banner( {prop} ){
   return(
     <div className="banner-container">

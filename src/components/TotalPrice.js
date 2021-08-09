@@ -1,6 +1,6 @@
 import React from 'react'
 import TotalOrder from '../data/TotalOrder.json'
-
+// section-bannière sur le total d'achat
 export default function TotalPrice(){
   return(
     <>

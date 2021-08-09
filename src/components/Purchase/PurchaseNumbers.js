@@ -1,5 +1,6 @@
 import React from 'react'
-import '../../styles/Purchase.css'
+import './Purchase.css'
+/* les données: 405560003, 1 mai 2019, 3 mai 2019 */
 export default function PurchaseNumbers({ deliverySpan }){
   return(
     <div className="delivery_span">

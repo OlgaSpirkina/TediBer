@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../styles/Purchase.css'
-
+import './Purchase.css'
+/* les données: N° de commande, Date de commande, Date d’expédition */
 export default function PurchaseInfo({ deliveryInfo }){
   return(
     <div className="delivery_info">

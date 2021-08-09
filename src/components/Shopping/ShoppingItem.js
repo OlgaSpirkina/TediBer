@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import Purchases from '../../data/Purchases.json'
-import '../../styles/ShoppingList.css'
+import './ShoppingList.css'
 class ShoppingItem extends Component {
   render() {
     return(
       <div>
+{/* Les achats dans le panier: la couette, oreiller et le lit. Les info sur ces achats sont stoquer en
+  fichier JSON Purchases. On affiche chaque achat comme une div contenant l'image et le text descriptif */}      
         {Purchases.map((article, index) =>{
           return (
             <div key={index} className="article-container">

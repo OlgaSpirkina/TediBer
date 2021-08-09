@@ -1,5 +1,5 @@
 import ShoppingList from './ShoppingList'
-import '../../styles/ShoppingList.css'
+import './ShoppingList.css'
 export default function Shopping(){
   return(
     <div className="shopping-section-wraper">

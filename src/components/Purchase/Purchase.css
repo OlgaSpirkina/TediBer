@@ -1,0 +1,11 @@
+.purchase_parent{
+  display: flex;
+  border-bottom: 1px solid;
+}
+.delivery_info p,
+.delivery_span p{
+  font-size: 1.2rem;
+}
+.delivery_span p{
+  font-weight: 700;
+}

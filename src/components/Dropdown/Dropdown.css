@@ -1,0 +1,130 @@
+/* BeddingDropdown.js: les liens dans la navbar */
+/* #link1 se situe dans NavbarItem.js */
+#link1{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-link-div{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 11rem;
+  z-index: 1;
+}
+.dropdown-link{
+  text-decoration: none;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Gill Sans Std Light', Helvetica Neue;
+  color: #212348;
+  text-align: justify;
+  margin: .3rem;
+  padding: .5rem;
+}
+.dropdown-link:hover{
+  background-color: #f1f1f1
+}
+#link1:hover .dropdown-link-div{
+  display: block;
+}
+/* Fin liens de la Navbar */
+/* toutes les icons du react */
+.dropdownIcon{
+  position: relative;
+  top: .3rem;
+  color: #E0DEDA;
+}
+/* DropdownSection.js: la section avec les info sur la commande et les paragraphs-dropdown */
+.delivery_section{
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* ImgCheckbox.js: les images et les checkbox pour voir l'état du livraison */
+.dropdown_section_parent{
+  display: flex;
+  flex-direction: column;
+}
+.imgs_checkboxes_section{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+.dropdown_img_parent{
+  height: 5rem;
+}
+/* fin page ImgCheckbox.js */
+/* DropdownParagraph.js: le paragraph contenant une phrase et une icon qui affiche de l'info */
+.paragraph_dropdown{
+  margin: 1rem 0;
+  padding: 1rem 0;
+  width: inherit;
+  border-bottom: 1px solid;
+}
+/* l'iconde du chevron dans ChevronChange.js */
+.icon_in_paragraph{
+  position: relative;
+  float: right;
+}
+.turn_around{
+  transform: rotate(180deg);
+}
+/* DropdownParagraphList.js: le contenu fictif du deuxième paragraph-dropdown */
+.span{
+  display: block;
+  text-transform: uppercase;
+}
+@media only screen and (max-device-width : 550px) {
+  .delivery_section{
+    width: 100%;
+    margin: 2rem 0;
+    margin-bottom: 4rem;
+  }
+  .paragraph_dropdown{
+    margin: .5rem 0;
+    padding: .5rem 0;
+  }
+  .imgs_checkboxes_section{
+    /* height: 5vh; */
+  }
+  .dropdown_img_parent img{
+    height: 3rem;
+  }
+}
+@media only screen and (min-device-width : 551px) and (max-device-width : 800px) {
+  .delivery_section{
+    width: 100%;
+    margin: 2rem 0;
+    margin-bottom: 4rem;
+  }
+  .paragraph_dropdown{
+    margin: .5rem 0;
+    padding: .5rem 0;
+  }
+  .dropdown_img_parent img{
+    height: 3rem;
+  }
+}
+@media only screen and (min-device-width : 801px) and (max-device-width : 1000px) {
+  .delivery_section{
+    margin-top: 2rem;
+    width: 35%;
+  }
+  .paragraph_dropdown{
+    width: 100%;
+  }
+  .dropdown_img_parent img{
+    height: 3rem;
+  }
+}
+@media only screen and (min-device-width : 1001px) and (max-device-width : 1400px) {
+  .delivery_section{
+    margin-top: 3rem;
+  }
+  .dropdown-link{
+    font-size: 1.1rem;
+  }
+}
