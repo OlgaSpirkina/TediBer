@@ -1,7 +1,7 @@
 [
   {
     "title": "L’INCROYABLE MATELAS TEDIBER",
-    "image": "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/bed.jpg",
+    "image": "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/bed.jpg",
     "price": "750 €",
     "details": [
       "TAILLE : 160 x 200 cm", "QTÉ : 1"
@@ -9,7 +9,7 @@
   },
   {
     "title": "L’INCROYABLE OREILLER TEDIBER",
-    "image": "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/pillow.jpg",
+    "image": "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/pillow.jpg",
     "price": "85 €",
     "details": [
       "TAILLE : 60 x 60 cm", "QTÉ : 2"
@@ -17,7 +17,7 @@
   },
   {
     "title": "L’INCROYABLE COUETTE TEDIBER",
-    "image": "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/public/blanket.jpg",
+    "image": "https://raw.githubusercontent.com/OlgaSpirkina/TediBer/main/src/img/blanket.jpg",
     "price": "210 €",
     "details": [
       "TAILLE : 240 x 220 cm", "QTÉ : 1"
