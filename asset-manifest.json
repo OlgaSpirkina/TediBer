@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TediBer/static/css/main.8a16501f.chunk.css",
-    "main.js": "/TediBer/static/js/main.d1fe2be8.chunk.js",
-    "main.js.map": "/TediBer/static/js/main.d1fe2be8.chunk.js.map",
+    "main.js": "/TediBer/static/js/main.4a319583.chunk.js",
+    "main.js.map": "/TediBer/static/js/main.4a319583.chunk.js.map",
     "runtime-main.js": "/TediBer/static/js/runtime-main.ed0495e2.js",
     "runtime-main.js.map": "/TediBer/static/js/runtime-main.ed0495e2.js.map",
     "static/js/2.37a4b6a7.chunk.js": "/TediBer/static/js/2.37a4b6a7.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ed0495e2.js",
     "static/js/2.37a4b6a7.chunk.js",
     "static/css/main.8a16501f.chunk.css",
-    "static/js/main.d1fe2be8.chunk.js"
+    "static/js/main.4a319583.chunk.js"
   ]
 }
